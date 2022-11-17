@@ -65,7 +65,7 @@
 }
 @media (max-width: 500px) {
   #iframe {
-    width: 450px;
+    width: 300px;
   }
 }
 @media (max-width: 320px) {
