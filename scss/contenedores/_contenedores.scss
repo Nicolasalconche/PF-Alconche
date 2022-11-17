@@ -1,0 +1,148 @@
+header{
+    .h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+        font-size: 50px;
+        color: rgba(175, 155, 41, 0.815);
+    }
+    
+    .navegacion{   
+        font-size: 1.3rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+}
+
+main{
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    
+    .main-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    
+    .subrayado{
+        text-decoration: underline;
+    }
+    
+    #titulo1{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9rem;
+        width: 50%;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    
+    .card{
+        margin-bottom: 100px;
+    }
+
+    .imagenn{
+        width: 300px;
+        height: 300px;
+        margin: 2px;
+        border-radius: 15px;
+    }
+    
+    .productos{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+    
+    #iframe{
+        margin-bottom: 40px;
+    }
+
+    .productos-1{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-bottom: 500px ;
+    }
+    
+    .productos-tamaño{
+        border: solid;
+        margin: 20px;
+        width: 270px;
+        height: 300px;
+    }
+    
+    .tamaño-video{
+        margin: 60px;
+        width: 270px;
+        height: 300px;
+    }
+    
+    .productos-descripcion{
+        display: flex;
+        text-decoration: underline;
+        font-weight: bold;
+        margin-left: 120px;
+        align-items: center;
+    }
+    
+    .productos-descripcion-2{
+        display: flex;
+        margin-left: 120px;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .contenedor{
+        display: flex;
+        flex-direction: row; 
+         
+    }
+}
+
+footer{
+    .footer{
+        display: grid;
+        grid-template-areas: "iconos correo derechos";
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+    
+    .iconos-sociales{
+        display: grid flex;
+        grid-area: iconos;
+        flex-direction: row;
+    }
+    
+    .correo{
+        display: grid;
+        grid-area: correo;
+    }
+    
+    .derechos{
+        display: grid ;
+        grid-area: derechos;
+    }
+    
+    .iconos-sociales img{ 
+        transition:all 0.5s ease-out; border-radius:50px;
+    }
+    
+    .iconos-sociales img:hover{
+        box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        transform:translate(0px, -10px); 
+    }
+}
+

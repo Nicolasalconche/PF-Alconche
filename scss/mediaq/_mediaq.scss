@@ -1,0 +1,139 @@
+@media (max-width: 1029px) {
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    
+    .productos-1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 500px;
+        margin-left: 0;
+    }
+
+    #iframe{
+        width: 900px;
+    }
+
+    .main-1{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 100vh;
+    }
+}
+
+@media (max-width: 720px) {
+    .main{
+        width: 100vh;
+    }
+
+    #titulo2{
+        display: flex;
+        margin-left: 0;
+        flex-flow: column;
+        font-size: 0.8rem;
+        align-content: flex-start;
+    }
+
+    .productos-1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 500px;
+    }
+    .main-1{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 500px){
+    #iframe{
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .logo{
+        width: 200px;
+    }
+    
+    #carouselExampleFade{
+        width: 310px;
+    }
+
+    .h1{
+        display: flex;
+        flex-direction: column;
+        margin-left:0;
+        align-items: flex-start;
+        width: 200px; 
+    }
+    
+    #titulo1{
+        width: 310px; 
+    }
+
+    .productos{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .tamaño-video{
+        margin-left: 0;
+        align-content: flex-start;
+    }
+
+    .form-label{
+        display: flex;
+        text-align: center;
+        width: 280px;
+    }
+
+    #iframe{
+        width: 280px;
+        height:300px;
+    }
+
+    .main-1{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 65vh;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotros{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        width: 300px;
+        margin-top: 30px;
+    }
+}
