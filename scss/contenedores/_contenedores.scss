@@ -33,6 +33,7 @@ main{
     }
     
     .subrayado{
+        text-align: center;
         text-decoration: underline;
     }
     
@@ -54,6 +55,8 @@ main{
         height: 300px;
         margin: 2px;
         border-radius: 15px;
+        border: solid grey 2px;
+        
     }
     
     .productos{
@@ -64,29 +67,23 @@ main{
         justify-content: space-evenly;
         margin-top: 100px;
     }
-    
+
     #iframe{
+        width: 100%;
         margin-bottom: 40px;
     }
 
     .productos-1{
         display: flex;
-        width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 100px;
-        margin-bottom: 500px ;
+        justify-content: space-evenly;
+        margin-top: 40px;
     }
     
     .productos-tamaño{
         border: solid;
         margin: 20px;
-        width: 270px;
-        height: 300px;
-    }
-    
-    .tamaño-video{
-        margin: 60px;
         width: 270px;
         height: 300px;
     }
@@ -111,29 +108,26 @@ main{
         flex-direction: row; 
          
     }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
 }
 
 footer{
     .footer{
-        display: grid;
-        grid-template-areas: "iconos correo derechos";
-        grid-template-columns: 2fr 1fr 1fr;
-    }
-    
-    .iconos-sociales{
-        display: grid flex;
-        grid-area: iconos;
+        display: flex;
         flex-direction: row;
-    }
-    
-    .correo{
-        display: grid;
-        grid-area: correo;
-    }
-    
-    .derechos{
-        display: grid ;
-        grid-area: derechos;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     
     .iconos-sociales img{ 

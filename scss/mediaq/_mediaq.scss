@@ -5,15 +5,7 @@
         flex-direction: column;
         align-content: flex-start;
     }
-    
-    .productos-1{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-top: 100px;
-        gap: 500px;
-        margin-left: 0;
-    }
+
 
     #iframe{
         width: 900px;
@@ -26,6 +18,7 @@
     width: 100vh;
     }
 }
+
 
 @media (max-width: 720px) {
     .main{
@@ -40,13 +33,6 @@
         align-content: flex-start;
     }
 
-    .productos-1{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-top: 100px;
-        gap: 500px;
-    }
     .main-1{
     display: flex;
     flex-direction: column;
@@ -70,6 +56,11 @@
     #iframe{
         width: 300px;
     }
+
+    .iframe{
+        width: 380px;
+    }
+    
 
 }
 
@@ -101,14 +92,13 @@
         justify-content: center;
     }
 
-    .tamaño-video{
-        margin-left: 0;
-        align-content: flex-start;
-    }
-
     .form-label{
         display: flex;
         text-align: center;
+        width: 280px;
+    }
+
+    .iframe{
         width: 280px;
     }
 
@@ -125,8 +115,7 @@
     }
 
     .footer{
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
 
     .nosotros{
