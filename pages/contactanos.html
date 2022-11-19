@@ -12,8 +12,7 @@
         <link rel="icon" type="image/jpg" href="../assets/imagenes/favicon.ico"/>
         <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
-        <enlace href="https: //fonts.googleapis.com/css2? family= Noto+Sans+Mono:wght@300;500 & display=swap"
-                    rel="stylesheet">
+        <enlace href="https: //fonts.googleapis.com/css2? family= Noto+Sans+Mono:wght@300;500 & display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="color">
@@ -58,7 +57,7 @@
             <section class="contact">
                 <div class="u-wrapper">
                   <div class="contact-content">
-                    <form id="form" class="form">
+                    <form id="form" class="form" action="https://formspree.io/f/moqbrrdn" method="POST">
                       <h3 class="tag"><span>CONSULTANOS</span></h3>
                       <label for="name">Nombre Completo <span>*</span></label>
                       <input name="name" required type="text" id="name" placeholder="Nombre y Apellido">
@@ -82,6 +81,27 @@
                     <div>Contacto: nicolas_alcon@hotmail.com</div>
              </section>
         </footer>
+        <script>
+            const $form = document.querySelector('#form')
+
+            $form.addEventListener('submit', handleSubmit)
+
+            async function handleSubmit(event) {
+                event.preventDefault()
+                const form = new FormData(this)
+                const response = await fetch(this.action, {
+                    method: this.method,
+                    body: form,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                if (response.ok) {
+                    this.reset()
+                    alert('Gracias por comunicarte con nosotros, en breve nos contactaremos.')
+                }
+            }
+        </script> 
         <script src="../bs/bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
     </body>
 </html>

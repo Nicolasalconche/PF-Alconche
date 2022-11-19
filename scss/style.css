@@ -151,11 +151,10 @@ main .card {
   margin-bottom: 100px;
 }
 main .imagenn {
-  width: 300px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 15px;
-  border: solid grey 2px;
+  width: 290px;
+  height: 290px;
+  margin: 5px;
+  border: solid #CFD2CF 2px;
 }
 main .productos {
   display: flex;
@@ -271,7 +270,7 @@ footer {
 :root {
   --font: "Oxygen", sans-serif;
   --primary: #8b8b8b;
-  --gradient: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+  --gradient: linear-gradient(135deg, #B2B2B2 0%, #3C4048 100%);
   --black: black;
 }
 
