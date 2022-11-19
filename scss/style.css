@@ -270,7 +270,7 @@ footer {
 :root {
   --font: "Oxygen", sans-serif;
   --primary: #8b8b8b;
-  --gradient: linear-gradient(135deg, #B2B2B2 0%, #3C4048 100%);
+  --gradient: linear-gradient(135deg, #31E1F7 0%, #3C4048 100%);
   --black: black;
 }
 
