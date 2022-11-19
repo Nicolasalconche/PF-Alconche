@@ -228,7 +228,7 @@ body {
 }
 
 footer {
-  background-color: grey;
+  background-color: rgb(247, 247, 247);
 }
 
 .color {
@@ -270,7 +270,7 @@ footer {
 :root {
   --font: "Oxygen", sans-serif;
   --primary: #8b8b8b;
-  --gradient: linear-gradient(135deg, #31E1F7 0%, #3C4048 100%);
+  --gradient: linear-gradient(135deg, #D8D8D8 0%, #413F42 100%);
   --black: black;
 }
 
